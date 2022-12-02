@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span{
+    position:absolute;
+    margin: 35% 35%;
+    font-weight: 700;
+    font-size:60px;
+    color: white;
+}
+
+p{
+    position:absolute;
+    margin: 35% 35%;
+    font-weight: 700;
+    font-size:60px;
+    color: #7f8c8d;
+}
+
+
+div#cha_one{
+    position: relative;
+    margin: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-image: conic-gradient(#3498db 30%,white 30%)
+}
+
+div#con_one{
+    position: absolute;
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-color:#2c3e50;
+}
+
+div#cha_two{
+    position: relative;
+    margin: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-image: conic-gradient(#8e44ad 60%,white 60%)
+}
+
+div#con_two{
+    position: absolute;
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-color:#2c3e50;
+}
+
+div#cha_three{
+    position: relative;
+    margin: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-image: conic-gradient(#e67e22 90%,white 90%)
+}
+
+div#con_three{
+    position: absolute;
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-color:#2c3e50;
+}
+
+
+div#cha_four{
+    position: relative;
+    margin: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-image: conic-gradient(#27ae60 45%,#95a5a6 45%)
+}
+
+div#con_four{
+    position: absolute;
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-color:#ecf0f1;
+}
+
+div#cha_five{
+    position: relative;
+    margin: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-image: conic-gradient( #8e44ad 75%,#95a5a6 75%)
+}
+
+div#con_five{
+    position: absolute;
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-color:#ecf0f1;
+}
+
+
+div#cha_six{
+    position: relative;
+    margin: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-image: conic-gradient(#e74c3c 95%,#95a5a6 95%)
+}
+
+div#con_six{
+    position: absolute;
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-color:#ecf0f1;
+}
+
+

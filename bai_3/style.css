@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+div#image_3{
+    position: relative;
+    width: 500px;
+    height: 500px;  
+    background-color:#34495e ;
+}
+
+div#cha{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background-image: conic-gradient(#34495e 0deg,#34495e 5deg,#34495e 5deg,#34495e 30deg,
+                                     #34495e 30deg,#34495e 35deg,rgba(46, 204, 113,0.1) 35deg,rgba(46, 204, 113,0.2) 60deg,
+                                     #34495e 60deg,#34495e 65deg, rgba(46, 204, 113,0.2) 65deg,rgba(46, 204, 113,0.3) 90deg,
+                                     #34495e 90deg,#34495e 95deg,rgba(46, 204, 113,0.3) 95deg,rgba(46, 204, 113,0.4) 120deg,
+                                     #34495e 120deg,#34495e 125deg,rgba(46, 204, 113,0.4) 125deg,rgba(46, 204, 113,0.5) 150deg,
+                                     #34495e 150deg,#34495e 155deg,rgba(46, 204, 113,0.6) 155deg,rgba(46, 204, 113,0.7) 180deg,
+                                     #34495e 180deg,#34495e 185deg,rgba(46, 204, 113,0.7) 185deg,rgba(46, 204, 113,0.8) 210deg,
+                                     #34495e 210deg,#34495e 215deg,rgba(46, 204, 113,0.8) 215deg,rgba(46, 204, 113,0.9) 240deg,
+                                     #34495e 240deg,#34495e 245deg,rgba(46, 204, 113,0.9) 245deg,rgba(46, 204, 113,1.0) 270deg,
+                                     #34495e 270deg,#34495e 275deg,rgba(46, 204, 113,1.0) 275deg,rgba(46, 204, 113,1.0) 300deg,
+                                     #34495e 300deg,#34495e 305deg,rgba(46, 204, 113,1.0) 305deg,rgba(46, 204, 113,1.0) 330deg,
+                                     #34495e 330deg,#34495e 335deg,rgba(46, 204, 113,1.0) 335deg,rgba(46, 204, 113,1.0) 360deg
+                                    );
+}
+
+div#con{
+    position: absolute;
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    background-color:#34495e;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

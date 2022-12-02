@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 30px;
+}
+
+div{
+    margin: 20px;
+}
+
+p{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+#bg-info{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#0fb9b1 70%,#bdc3c7 70%);
+    color: aliceblue;
+}
+
+#bg-success{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#20bf6b 30%,#bdc3c7 30%);
+    color: aliceblue;
+}
+
+#bg-warning{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#fa8231 50%,#bdc3c7 50%);
+    color: aliceblue;
+}
+
+#bg-danger{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#c23616 60%,#bdc3c7 60%);
+    color: aliceblue;
+}
+
+#bg-light{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#dcdde1 30%,#bdc3c7 30%);
+    color: aliceblue;
+}
+
+#bg-dark{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,black 60%,#bdc3c7 60%);
+    color: aliceblue;
+}
+
+#bg-primary{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#2980b9 80%,#bdc3c7 80%);
+    color: aliceblue;
+}
+
+#bg-secondary{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,gray 70%,#bdc3c7 70%);
+    color: aliceblue;
+}
